@@ -1,0 +1,27 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+
+:root {
+    --fonte : "Madimi One", sans-serif;
+}
+
+body {
+    /* background-image: linear-gradient(#E6E6FA,#33006F); */
+    background-image: url(assets/rateee.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulo {
+     font-family: var(--fonte);
+}
+
